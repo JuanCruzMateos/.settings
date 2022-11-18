@@ -1,0 +1,59 @@
+{
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontLigatures": false,
+    "editor.cursorStyle": "block",
+    "workbench.colorCustomizations": {
+        "activityBar.foreground": "#25b4be",
+        "editorLineNumber.activeForeground": "#25b4be"
+    },
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "top",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'JetBrains Mono SemiBold', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 13,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.validate.enable": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "go.toolsManagement.autoUpdate": true,
+    "security.workspace.trust.banner": "always",
+    "C_Cpp.default.compilerArgs": [
+        "-g",
+        "-Wall",
+        "-Wconversion",
+        "-Wtype-limits",
+        "-pedantic",
+        "-Werror"
+    ],
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.formatOnSave": true,
+    // "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "redhat.telemetry.enabled": false,
+    // "rust-analyzer.rustfmt.enableRangeFormatting": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust", // Makes the magic
+        "editor.formatOnSave": true // Optional
+    },
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=200"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "editor.wordWrapColumn": 120,
+    "editor.codeActionsOnSave": {},
+}
